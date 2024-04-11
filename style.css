@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+.move-text {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(./images/logo.svg) no-repeat;
+}
+
+.showcase-section {
+  margin: 0px auto;
+  max-width: 45rem;
+  /* margin-top: 10rem; */
+}
+.small--margin {
+  margin-bottom: 1.2rem;
+  border: none;
+}
+
+.button-spacing {
+  padding: 1.4rem 2.6rem;
+  border-radius: 1.8rem;
+  border: none;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.showcase-bigtxt {
+  font-size: 3.2rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.small-content {
+  font-size: 1.6rem;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 1.6;
+
+  /* text-align: center; */
+}
+.button-section {
+  margin: 0px auto;
+  padding: 2.3rem 3.8rem;
+}
+
+.btn-one {
+  margin: 0px 0.4rem;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 0px 3px 0px hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+.btn-two {
+  margin: 0px 0.4rem;
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 0px 3px 0px rgb(159, 171, 178);
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.btn-one:hover,
+.btn-one:active {
+  box-shadow: 0px 0px 5px 0px hsl(171, 66%, 44%);
+}
+
+.btn-two:hover,
+.btn-two:active {
+  box-shadow: 0px 0px 5px 0px rgb(76, 84, 93);
+}
+
+/* Second-section */
+.second-showcase {
+  margin: 0px auto;
+  max-width: 45rem;
+}
+.track-section {
+  margin-top: 6.8rem;
+}
+
+.showcase-h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+
+.showcase--showcase {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.desktop-img {
+  width: 55rem;
+}
+.hero-image-sect {
+  display: flex;
+  column-gap: 8rem;
+  margin-top: 8rem;
+  justify-items: center;
+  max-width: 85rem;
+}
+.features-block {
+  display: block;
+
+  margin-top: 4.5rem;
+}
+.text-header {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.text-smaller-txt {
+  font-size: 1.5rem;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.3;
+  margin-top: 1.1rem;
+  /* font-weight: 700; */
+}
+
+.small--text {
+  margin-bottom: 2.2rem;
+}
+
+.device-img {
+  width: 60rem;
+  margin-top: 4.8rem;
+}
+
+.smaller-txt {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.third-showcase-cover {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.8rem;
+  margin: 0px auto;
+  max-width: 45rem;
+  justify-content: center;
+}
+
+.features-icon {
+  width: 26px;
+  height: 26px;
+  margin: 0px 160px;
+}
+.features-text {
+  margin-bottom: 3.8rem;
+}
+.images-text {
+  font-size: 1.9rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+.desktop-small-contents {
+  font-size: 1.4rem;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+}
+.icon {
+  margin-bottom: 3.6rem;
+}
+
+.social-heroicons {
+  margin-top: 9.6rem;
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2.8rem;
+  max-width: 120rem;
+  margin: 0px auto;
+}
+
+.small-icons {
+  width: 60%;
+}
+
+/* ===============Last section============= */
+.clipboard-ios {
+  margin-top: 15rem;
+}
+
+.clipboard--text {
+  font-size: 2.8rem;
+}
+
+.clipboard--content {
+  font-size: 1.4rem;
+  text-align: center;
+  /* color:#99 */
+}
+
+.footer-section {
+  /* background-color: hsl(201, 11%, 66%); */
+  margin-top: 9.5rem;
+  /* background-color: hsl(201, 11%, 66%); */
+}
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  /* fill: hsl(171, 66%, 44%); */
+}
+.footer-list {
+  list-style: none;
+  line-height: 1;
+}
+.footer-links {
+  font-size: 2.1rem;
+  color: hsl(210, 10%, 33%);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.footer-list li {
+  margin: 0px 10px;
+}
+
+.sub-footer {
+  max-width: 120rem;
+  margin: 0px auto;
+}
+
+.showcase-footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  /* margin-bottom: 1.8rem; */
+}
+.footer-contents {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  /* margin: 0px 15px; */
+}
+
+.footer--icons-small {
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px;
+}
